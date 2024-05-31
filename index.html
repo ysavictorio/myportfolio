@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My portofolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/681d4582fd.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="./images/" type="image/x-icon">
+    <!-- boxicons link -->
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+</head>
+
+<body>
+    <section class="wrapper">
+        <nav>
+            <div class="menu">
+                <img src="./images/pic.jpeg">
+
+                    <ul class="nav">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                       
+                        <li><a href="#contact">contact</a></li>
+                        
+                    </ul>
+                <button><a href="">Chat <i class="fa-solid fa-comment" style="color: #fff;"></i></a></button>
+                <i class="fa fa-bars hamburger"></i>
+            </div>    
+        </nav>
+        <!-- Home section -->
+        <section class="containered " id="home">
+            <div class="left-col fade-in">
+                <h2 class="fade-in font-bold">Hi I'm Ysa<br><b style="font-size: 30px;">Web developer</b>
+                </h2>
+
+                <p>A Web Designer and Frontend Developer!</p>
+
+                <button class="active"><a href="#contact">Hire Me</a></button>
+                <button><a download href=".pdf" download="MY-RESUME">Download Cv</a></button>
+
+            </div>
+            <div class="right-col fade-in">
+                <div class="content">
+                    <img src="./images/pic.jpeg">
+                </div>
+
+            </div>
+            <div class="fa-br">
+                <a href="#" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"  target="_blank" style="color: #551a8b;"><i class='fa fa-youtube-play'></i></a>
+                <a href="#" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <div class="about-section" id="about">
+            <div class="about">
+                <div class="about-img">
+                    <img src="./images/fronted.png" class="fade-in">
+                </div>
+                <div class="about-text-upper">
+                    <div class="fade-in">
+                        <h2>About Ysa</h2>
+            
+                        <p>I’m Ysa Victorio, student athlete of Exact Colleges of Asia, Currently taking Bachelor of Science and Information System. I played in olongapo and I won, I’m the one who represent Region III in Zamboaga last july 2023. and now I will participate in the up coming Regional Prisaa in Olongapo.  </p>
+                        <button class="read-Btn" onclick="goAboutPage()">Read More</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        
+
+
+
+        <!-- Contact section -->
+        <section class="contact-section" id="contact">
+            <div class="contact">
+                <div class="fade-in">
+                    <h3>Contact Me</h3>
+                    <h1>Get in Touch With Me</h1>
+                </div>
+                <form action="" class="fade-in">
+                    <div class="user-details">
+                        <input type="text" id="first-name" placeholder="First Name">
+                        <input type="text" id="last-name" placeholder="Last Name">
+                    </div>
+                    <input type="email" id="email" placeholder="Email">
+                    <input type="text" id="subject" placeholder="Subject">
+                    <textarea name="subject" id="textarea" cols="30" rows="10" placeholder="type your message here"></textarea>
+                </form>
+                <button id="submit-btn">Submit</button>
+            </div>
+        </section>
+
+        <!-- footer section -->
+        <section class="footer">
+            <img src="./images/pic.jpeg" alt="">
+            <div class="icons">
+                <p>Hi I'm Ysa <br>Web Developer</p>
+                <a href="#" target="_blank"><i class='bx bxl-facebook'></i></a>
+                <a href="#"  target="_blank"><i class='bx bxl-instagram'></i></a>
+                <a href="#"  target="_blank"><i class='bx bxl-whatsapp'></i></a>
+                <a href="#"  target="_blank"><i class='bx bxl-twitter'></i></a>
+            </div>
+           
+        
+            <div class="footer-content">
+                <h4>Explore</h4>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                
+                <li><a href="#contact">Contact</a></li>
+            </div>
+        </section>
+
+    </section>
+    <script src="app.js"></script>
+</body>
+
+</html>
